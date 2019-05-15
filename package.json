@@ -1,0 +1,21 @@
+{
+  "name": "hexo-tag-asset-svg",
+  "version": "1.0.0",
+  "description": "Hexo tag plugin for generate html object tags for svg files",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotabout/hexo-tag-asset-svg.git"
+  },
+  "keywords": [
+    "hexo",
+    "tag",
+    "svg"
+  ],
+  "author": "Jinzhou Zhang<lotabout@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lotabout/hexo-tag-asset-svg/issues"
+  },
+  "homepage": "https://github.com/lotabout/hexo-tag-asset-svg#readme"
+}
