@@ -51,7 +51,7 @@ function makeUrl(path) {
 }
 
 function svgTag(args, content) {
-  const classes = [];
+  const classes = ['native-svg'];
   let meta = '';
   let width, height, title, alt, src;
   let item = '';
