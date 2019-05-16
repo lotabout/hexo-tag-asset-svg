@@ -11,3 +11,14 @@ just like the [img](https://hexo.io/docs/tag-plugins#Image) and
 ```
 {% asset_svg [class names] slug [width] [height] [title text [alt text]]%}
 ```
+
+It will generate the following html tag:
+
+```html
+<object type="image/svg+xml" data="/path/to/your/svg" class="native-svg and your own classes">
+    <img src="/path/to/your/svg" class="native-svg and your own classes">
+</object>
+```
+
+Note that if you hope to scale your svgs, make sure your svg include the
+`viewbox` attribute.
